@@ -1,0 +1,12 @@
+f = open('input.txt', 'r')
+f.write / f.read(n) / f.readline() / f.readlines() + f.close()
+
+i = 1
+f = open('sample.txt' , 'r')
+for line in f.readlines():
+    if i % 2 == 0 :
+        print (line)
+    i += 1
+
+#i += 1 means i = i + 1.
+# i % 2 == 0 – parzysta liczba
