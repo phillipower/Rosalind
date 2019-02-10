@@ -1,0 +1,19 @@
+f=open('rosalind_dna.txt','r').readline()
+a=0
+t=0
+g=0
+c=0
+for n in f:
+    if n =='A':
+        a=a+1
+    if n =='T':
+        t=t+1
+    if n =='C':
+        c=c+1
+    if n =='G':
+        g=g+1
+print(a)
+print(c)
+print(g)
+print(t)
+
