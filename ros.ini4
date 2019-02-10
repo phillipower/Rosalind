@@ -1,0 +1,14 @@
+a = 4659
+b = 8748
+suma = 0
+
+for i in range(a,b+1):
+# +1, bo normalnie range okresla przedzial od zmimennej a do zmiennej b-1
+  
+if i%2 == 1:
+# okresla liczbe nieparzysta, a i%2 == 0 określa parzysta
+
+suma += i
+#suma, ktora wynosisla 0 ma byc powiekszana o kazde pasujące i w przedziale, 
+#i += 1 means i = i + 1.
+print (suma)
