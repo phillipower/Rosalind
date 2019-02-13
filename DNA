@@ -1,4 +1,4 @@
-Counting DNA Nucleotides
+#Counting DNA Nucleotides
 a='AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
 b=a.count('A')
 print(b)
