@@ -1,0 +1,14 @@
+dna='GATGGAACTTGACTACGTAAATT'
+rna=''
+
+for n in dna
+    if n =='A':
+        rna=rna+'U'
+    if n == 'T':
+        rna=rna+'A'
+    if n == 'G':
+        rna=rna+'C'
+    if n == 'C':
+        rna=rna+'G'
+
+print(rna)
