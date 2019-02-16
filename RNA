@@ -1,0 +1,19 @@
+dna='GATGGAACTTGACTACGTAAATT'
+rna=[]
+
+for n in dna:
+    if n =='A':
+        rna.append('U')
+        #rna=rna+'U'
+    if n == 'T':
+        #rna=rna+'A'
+        rna.append('A')
+    if n == 'G':
+        #rna=rna+'C'
+        rna.append('C')
+    if n == 'C':
+        #rna=rna+'G'
+        rna.append('G')
+
+j = ''.join(rna)
+print(j)
