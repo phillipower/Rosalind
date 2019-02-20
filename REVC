@@ -1,0 +1,15 @@
+fw = 'AAAACCCGGT'
+rv = []
+
+for n in fw:
+    if n == 'A':
+        rv.append('T')
+    if n == 'T':
+        rv.append('A')
+    if n == 'G':
+        rv.append('C')
+    if n == 'C':
+        rv.append('G')
+
+rvs = ''.join(map(str,rv))
+print(rvs[::-1])
